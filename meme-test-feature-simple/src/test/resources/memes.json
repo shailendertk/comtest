@@ -1,0 +1,14 @@
+{
+  "memes": [
+    {
+      "name": "meme-1",
+      "year": "2015",
+      "tags": ["tag1","tag2","tag3"]
+    },
+    {
+      "name": "meme-2",
+      "year": "2005",
+      "tags": ["tag4","tag5","tag6"]
+    }
+  ]
+}
