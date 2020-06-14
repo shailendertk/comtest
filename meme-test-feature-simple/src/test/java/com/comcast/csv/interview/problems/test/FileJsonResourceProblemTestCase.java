@@ -32,7 +32,7 @@ public class FileJsonResourceProblemTestCase {
     public void readFromFileTest() throws YoureDoingItWrongException {
         LOG.debug("readFromFileTest()");
 //        List<Meme> memes = problem.readFromFile(new File("/workspace/meme-test-feature-simple/src/test/resources/memes.json"));
-        List<Meme> memes = problem.readFromFile(new File("/uhome/workplace/meme-test-feature-simple/src/test/resources/memes.json"));
+        List<Meme> memes = problem.readFromFile(new File("src/test/resources/memes.json"));
         assertNotNull(memes);
         for (Meme meme : memes) {
             LOG.debug(meme.toString());
